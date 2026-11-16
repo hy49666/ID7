@@ -192,16 +192,16 @@
       "kind": "app",
       "title": "EDrive助手",
       "description": "Real electric range, live battery power, cells and climate power, HV battery health (SOH) and energy, last charge, charge log, the 12 V battery (charge, voltage, what it does, regen, history) and a home-screen widget; on a 48 V mild hybrid its 48 V battery and DC/DC converter",
-      "version": "2.8.4",
+      "version": "2.9.2",
       "artifact": {
-        "name": "edrive@2.8.4.tgz",
-        "url": "packages/edrive@2.8.4.tgz",
-        "size": 1061663,
-        "sha256": "ddddae232bf7296a45c5e17eef5494e3c8ca462aa6bcc29b616c3d76d3241600"
+        "name": "edrive@2.9.2.tgz",
+        "url": "packages/edrive@2.9.2.tgz",
+        "size": 1087795,
+        "sha256": "8700725f7bb0738279c4170835c6c54d0f01c65750b32cda9756721565a4e254"
       },
       "requires": {
-        "idrive7-renderd": "2.1.7",
-        "mgu-inputgate": "1.0.0"
+        "mgu-deploy": "0.3.2",
+        "idrive7-renderd": "2.1.15"
       },
       "uninstallable": true,
       "mguHmi": [
@@ -264,16 +264,17 @@
       "kind": "app",
       "title": "实时数据",
       "description": "Read-only live values from the car and its control units, a trip computer with fuel cost, and gauge screens of your own, one of them as the home-screen widget",
-      "version": "1.0.8",
+      "version": "1.0.13",
       "artifact": {
-        "name": "live_data@1.0.8.tgz",
-        "url": "packages/live_data@1.0.8.tgz",
-        "size": 1057900,
-        "sha256": "6f3faf795bb2622e42e58946857ad248f78002897971fa6440cda8210246266c"
+        "name": "live_data@1.0.13.tgz",
+        "url": "packages/live_data@1.0.13.tgz",
+        "size": 1082554,
+        "sha256": "de63911efd61b8d4aa5cde2c466c412c9ea0918b159048548f20f8b1c753066c"
       },
       "requires": {
-        "idrive7-renderd": "2.1.7",
-        "mgu-inputgate": "1.0.0"
+        "mgu-deploy": "0.3.2",
+        "idrive7-renderd": "2.1.18",
+        "mgu-inputgate": "1.1.0"
       },
       "uninstallable": true,
       "mguHmi": [
@@ -927,37 +928,39 @@
     {
       "id": "idrive7-renderd",
       "kind": "tool",
-      "version": "2.1.11",
+      "version": "2.1.18",
       "title": "GPU renderer",
-      "description": "The apps' own GPU renderer (mgu-render): draws them at 60 fps, beside the MGU Store's Renderer; installed with the apps",
+      "description": "The apps' own GPU renderer (mgu-render): draws them at 60 fps, beside the MGU Store's Renderer; installed with the apps (iDrive 7 and iDrive 8)",
       "requires": {
         "mgu-deploy": "0.6.1"
       },
       "mguHmi": [
-        "ID7"
+        "ID7",
+        "ID8"
       ],
       "mguNeeds": null,
       "mguProvides": "renderer",
       "optional": true,
       "uninstallable": true,
       "artifact": {
-        "name": "idrive7-renderd@2.1.11.tgz",
-        "url": "packages/idrive7-renderd@2.1.11.tgz",
-        "size": 94236,
-        "sha256": "f557df49dfce320261ff10bb66f409b5cda39b3854f29f74a408ad596690183b"
+        "name": "idrive7-renderd@2.1.18.tgz",
+        "url": "packages/idrive7-renderd@2.1.18.tgz",
+        "size": 96268,
+        "sha256": "73026ce359c27e54e63b6ca70ccc716fb6bc1f8aab111002f8c850dcad1b341a"
       }
     },
     {
       "id": "mgu-inputgate",
       "kind": "tool",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "title": "Controller gate",
-      "description": "Lets the apps have the iDrive controller (tabs, page buttons, settings, Doom); loads into the HMI at the next start",
+      "description": "Lets the apps have the iDrive controller (tabs, page buttons, settings, Doom); loads into the HMI at the next start (iDrive 7 and iDrive 8)",
       "requires": {
         "mgu-deploy": "0.3.2"
       },
       "mguHmi": [
-        "ID7"
+        "ID7",
+        "ID8"
       ],
       "mguNeeds": [
         "renderer"
@@ -966,10 +969,10 @@
       "optional": false,
       "uninstallable": true,
       "artifact": {
-        "name": "mgu-inputgate@1.0.0.tgz",
-        "url": "packages/mgu-inputgate@1.0.0.tgz",
-        "size": 7011,
-        "sha256": "d45096403723b1cf27defd1001cde0dc59d788875387780598db7a9bfbf9088e"
+        "name": "mgu-inputgate@1.1.0.tgz",
+        "url": "packages/mgu-inputgate@1.1.0.tgz",
+        "size": 7144,
+        "sha256": "a863bfccd7faa38832a0edc7dfba308d8be3ccb721a9868d403ce8398b630978"
       }
     },
     {

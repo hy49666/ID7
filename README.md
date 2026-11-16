@@ -30,3 +30,10 @@ https://gitee.com/xiaobai-151/mgu-cn-xiaobai/raw/main/catalog.json
 `provenance.json` 记录汉化构建版本和对应 GitHub 原项目或 PR。按 MGU Store 的发行格式打包，安装时由车机生成所需的 BMW OAP SDK。各应用及组件沿用原作者的许可。
 
 电脑版 SSH 启用工具使用 Windows 桌面工具的安装方式。 [原版仓库](https://github.com/cauliflowermossgrape/idrive7-8-ssh-root) · [汉化 PR #4](https://github.com/cauliflowermossgrape/idrive7-8-ssh-root/pull/4)
+
+## 2026-11-16 小组件相关更新
+
+- EDrive助手更新至 2.9.2，实时数据更新至 1.0.13，使用上游 b2880634 的代码及已合并中文词条。
+- 同步上游小组件内存画面缓存和实时数据温度单位设置，沿用现有汉化署名。
+- 配套 GPU renderer 更新至 2.1.18，Controller gate 更新至 1.1.0。
+- 已完成中文构建、小组件测试、实时数据测试和安装包校验，尚未车机实测。
