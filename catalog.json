@@ -2121,6 +2121,257 @@
       ],
       "icon": "qishui_beta.png",
       "iconSha256": "bd51203fdfbd30a6d537f54b1fd844f27025985f7f29685250c0589efec42a0f"
+    },
+    {
+      "id": "vizualyse_cast",
+      "kind": "app",
+      "title": "仪表投射",
+      "description": "将手机串流投射到仪表、HUD 或中控屏，支持配套的 CarPlay 第二屏设置。",
+      "version": "0.4.100",
+      "artifact": {
+        "name": "vizualyse_cast@0.4.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_cast%400.4.100.tgz",
+        "size": 52878,
+        "sha256": "cdfb9925a3dcb454dcd5a4bc75d02631a8527642bbcd6b6e04e6a219dd6b12cd"
+      },
+      "build": "unit",
+      "requires": {
+        "vizualyse-cast": "0.4.100"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse-cast",
+      "kind": "tool",
+      "title": "仪表投射（后台组件）",
+      "description": "将手机串流投射到仪表、HUD 或中控屏，支持配套的 CarPlay 第二屏设置。",
+      "version": "0.4.100",
+      "artifact": {
+        "name": "vizualyse-cast@0.4.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-cast%400.4.100.tgz",
+        "size": 31549537,
+        "sha256": "eb8c75e8770bd0aae0689b0166de680a74a1274e01355c6e81d4b57299018247"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.0",
+        "cluster-render": "0.4.2",
+        "mgu-python": "1.0.0",
+        "mgu-uplink": "0.7.0",
+        "vizualyse-bus": "0.1.0"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse_chromium",
+      "kind": "app",
+      "title": "浏览器",
+      "description": "在车机中使用 Chromium 浏览网页，通过手机输入网址和文字。",
+      "version": "0.3.100",
+      "artifact": {
+        "name": "vizualyse_chromium@0.3.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_chromium%400.3.100.tgz",
+        "size": 54792,
+        "sha256": "93f379fd6d483220512beb4bd451ffa343241c51a6471e05dd0e8ad0fb88ae2a"
+      },
+      "build": "unit",
+      "requires": {
+        "vizualyse-chromium": "0.3.100"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse-chromium",
+      "kind": "tool",
+      "title": "浏览器（后台组件）",
+      "description": "在车机中使用 Chromium 浏览网页，通过手机输入网址和文字。",
+      "version": "0.3.100",
+      "artifact": {
+        "name": "vizualyse-chromium@0.3.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-chromium%400.3.100.tgz",
+        "size": 189549123,
+        "sha256": "935c8ac1d14bb8275f0c9d59d23259b313ad5b00adfc6206c9a67f4744a6254c"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.0",
+        "mgu-python": "1.0.0",
+        "mgu-render": "0.6.11",
+        "vizualyse-bus": "0.1.0"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse_cluster",
+      "kind": "app",
+      "title": "仪表主题",
+      "description": "预览及切换仪表主题，可按驾驶模式选用不同外观。",
+      "version": "0.3.100",
+      "artifact": {
+        "name": "vizualyse_cluster@0.3.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_cluster%400.3.100.tgz",
+        "size": 44140,
+        "sha256": "42ae41637d1b8fa9fdad1f99b25d0907d8fe16c8fabb8ef514356e9376af5e0a"
+      },
+      "build": "unit",
+      "requires": {
+        "vizualyse-cluster": "0.4.100"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse-cluster",
+      "kind": "tool",
+      "title": "仪表主题（后台组件）",
+      "description": "预览及切换仪表主题，可按驾驶模式选用不同外观。",
+      "version": "0.4.100",
+      "artifact": {
+        "name": "vizualyse-cluster@0.4.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-cluster%400.4.100.tgz",
+        "size": 11562478,
+        "sha256": "90dcae26b4a373e7a275325a46d363cb615e4923e43bc8f037af458d28637210"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.0",
+        "mgu-python": "1.0.0",
+        "mgu-render": "0.6.11",
+        "cluster-render": "0.5.4"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse_moonlight",
+      "kind": "app",
+      "title": "Moonlight 串流",
+      "description": "连接 Sunshine 主机，将电脑游戏和声音串流到车机。",
+      "version": "0.3.100",
+      "artifact": {
+        "name": "vizualyse_moonlight@0.3.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_moonlight%400.3.100.tgz",
+        "size": 51704,
+        "sha256": "a5607b4b89862a132309c5e81bed5d98d4b14773ea10e41d1fb33af2c2fada33"
+      },
+      "build": "unit",
+      "requires": {
+        "vizualyse-moonlight": "0.3.100"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse-moonlight",
+      "kind": "tool",
+      "title": "Moonlight 串流（后台组件）",
+      "description": "连接 Sunshine 主机，将电脑游戏和声音串流到车机。",
+      "version": "0.3.100",
+      "artifact": {
+        "name": "vizualyse-moonlight@0.3.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-moonlight%400.3.100.tgz",
+        "size": 1526763,
+        "sha256": "d8917289a1127d97ae9aecbd2ed4235f02b502e4655c6cabcc67d85f5bf107f6"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.0",
+        "cluster-render": "0.4.2",
+        "mgu-python": "1.0.0",
+        "mgu-render": "0.6.11"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse_steam",
+      "kind": "app",
+      "title": "车载 Steam",
+      "description": "在车机运行支持的 Steam 游戏，管理安装位置和画面设置。",
+      "version": "0.2.100",
+      "artifact": {
+        "name": "vizualyse_steam@0.2.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse_steam%400.2.100.tgz",
+        "size": 52536,
+        "sha256": "a5dd2f77bfe53677078313b35cd261e86aef44a84d62151865fe445dd5608ddc"
+      },
+      "build": "unit",
+      "requires": {
+        "vizualyse-steam": "0.3.100"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse-steam",
+      "kind": "tool",
+      "title": "车载 Steam（后台组件）",
+      "description": "在车机运行支持的 Steam 游戏，管理安装位置和画面设置。",
+      "version": "0.3.100",
+      "artifact": {
+        "name": "vizualyse-steam@0.3.100.tgz",
+        "url": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/download/vizualyse-zh-cn.1/vizualyse-steam%400.3.100.tgz",
+        "size": 531761806,
+        "sha256": "918c0d9e47425d106e189a0b6f8e5f09e7cc22180e155620396ac0aacb325fae"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.0",
+        "mgu-python": "1.0.0",
+        "mgu-render": "0.6.11",
+        "vizualyse-bus": "0.1.0"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "author": "汉化 小白151"
+    },
+    {
+      "id": "vizualyse-bus",
+      "kind": "tool",
+      "title": "Vizualyse bus",
+      "description": "EXPERIMENTAL. The shared bus the Vizualyse tools use to ask each other to switch things off while they need the car's resources (Steam pauses Cast's cluster and HUD video while a game runs). Mosquitto 2.0.21 (MQTT) on a Unix socket only root's tools can reach; no network listener. Installed with the tools that use it; about 0.2 MB.",
+      "version": "0.1.0",
+      "artifact": {
+        "name": "vizualyse-bus@0.1.0.tgz",
+        "size": 122314,
+        "sha256": "37c0ea1f62d208f08f8c12cce310596f8809f4bda926f2d5d5321ad85f0ebb4a",
+        "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-bus%400.1.0/vizualyse-bus%400.1.0.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.0"
+      },
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true
     }
   ]
 }

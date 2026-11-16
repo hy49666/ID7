@@ -219,5 +219,145 @@
     "version": "0.9.40",
     "upstream": "https://github.com/robertnisipeanu/mgu-store/pull/63",
     "sourceAsset": "https://github.com/robertnisipeanu/mgu-store/releases/download/robertn_store%400.9.40/robertn_store%400.9.40.tgz"
+  },
+  {
+    "id": "vizualyse_cast",
+    "version": "0.4.100",
+    "build": "0.4.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse_cast@0.4.0.tgz",
+      "size": 43104,
+      "sha256": "94d00fd764bbe233b0b4c6174b708dc873e3d209e78935b814e692e7fc24a83d",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_cast%400.4.0/vizualyse_cast%400.4.0.tgz"
+    }
+  },
+  {
+    "id": "vizualyse-cast",
+    "version": "0.4.100",
+    "build": "0.4.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse-cast@0.4.0.tgz",
+      "size": 30059172,
+      "sha256": "9b8f17f96776bde01a5edee9b2e4d969c6c0de2fd8f4cf8c80ce915e62177311",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-cast%400.4.0/vizualyse-cast%400.4.0.tgz"
+    }
+  },
+  {
+    "id": "vizualyse_chromium",
+    "version": "0.3.100",
+    "build": "0.3.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse_chromium@0.3.0.tgz",
+      "size": 45469,
+      "sha256": "a7f3af5c4bd89152e767f965af22d1f1241472ad272cf9a1b5e457d589d69a28",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_chromium%400.3.0/vizualyse_chromium%400.3.0.tgz"
+    }
+  },
+  {
+    "id": "vizualyse-chromium",
+    "version": "0.3.100",
+    "build": "0.3.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse-chromium@0.3.0.tgz",
+      "size": 188979230,
+      "sha256": "764524e16f8b3f757aa9b7726ad5a8c3fafc932c1b4ebb3ddc0e4346838d31ba",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-chromium%400.3.0/vizualyse-chromium%400.3.0.tgz"
+    }
+  },
+  {
+    "id": "vizualyse_cluster",
+    "version": "0.3.100",
+    "build": "0.3.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse_cluster@0.3.0.tgz",
+      "size": 33829,
+      "sha256": "7c930a2e5e5400e6e05c420b60053a5b07157c8b0034f6703e2712ce6917d9ea",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_cluster%400.3.0/vizualyse_cluster%400.3.0.tgz"
+    }
+  },
+  {
+    "id": "vizualyse-cluster",
+    "version": "0.4.100",
+    "build": "0.4.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse-cluster@0.4.0.tgz",
+      "size": 10991930,
+      "sha256": "be137d71bb4fbe892c3b44e647f0be1c2a9d7612abfd2fe27f0a8810bf4421c7",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-cluster%400.4.0/vizualyse-cluster%400.4.0.tgz"
+    }
+  },
+  {
+    "id": "vizualyse_moonlight",
+    "version": "0.3.100",
+    "build": "0.3.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse_moonlight@0.3.0.tgz",
+      "size": 41797,
+      "sha256": "1337874d8b255aa09e0684fddbe3caa7c51d6424f6b9bb3c0e374d82da8ebead",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_moonlight%400.3.0/vizualyse_moonlight%400.3.0.tgz"
+    }
+  },
+  {
+    "id": "vizualyse-moonlight",
+    "version": "0.3.100",
+    "build": "0.3.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse-moonlight@0.3.0.tgz",
+      "size": 943322,
+      "sha256": "bc5f2e2f2f0aa169f86809e6e742ceadb3624c150086b8aac88706624d8da580",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-moonlight%400.3.0/vizualyse-moonlight%400.3.0.tgz"
+    }
+  },
+  {
+    "id": "vizualyse_steam",
+    "version": "0.2.100",
+    "build": "0.2.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse_steam@0.2.0.tgz",
+      "size": 42622,
+      "sha256": "8533c791e3a6b6f73a13ec1026ad3a6343e436387def7aef2f9d8a790e18519b",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse_steam%400.2.0/vizualyse_steam%400.2.0.tgz"
+    }
+  },
+  {
+    "id": "vizualyse-steam",
+    "version": "0.3.100",
+    "build": "0.3.100-zh.cn.1",
+    "upstream": "https://github.com/Vizualyse/idrive-apps",
+    "upstreamCommit": "9dda7625c5036a8cbc8f25a99f1e34e02d5b8c90",
+    "source": "https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/tree/332fa51c7d736b006739e510bfdeba304b1622a9",
+    "upstreamArtifact": {
+      "name": "vizualyse-steam@0.3.0.tgz",
+      "size": 531180501,
+      "sha256": "cbc2e0db8374186611cc45f81c970d15d770cda6704268836422b846146aba56",
+      "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-steam%400.3.0/vizualyse-steam%400.3.0.tgz"
+    }
   }
 ]

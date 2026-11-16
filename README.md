@@ -11,6 +11,7 @@
 | RideTube | 简体中文界面与设置 | [JustAnotherPU/ridetube](https://github.com/JustAnotherPU/ridetube) | [#3](https://github.com/JustAnotherPU/ridetube/pull/3) |
 | BMW 天气 | 简体中文天气界面、设置和小组件 | [flash8523/bmw-weather-mgu](https://github.com/flash8523/bmw-weather-mgu) | [#1](https://github.com/flash8523/bmw-weather-mgu/pull/1) |
 | MGU Browser | 简体中文界面与字体改动，应用按车机语言选择界面 | [pllanaio/mgu-browser](https://github.com/pllanaio/mgu-browser) | [#12](https://github.com/pllanaio/mgu-browser/pull/12) |
+| Vizualyse iDrive Apps | 仪表投射、Chromium 浏览器、仪表主题、Moonlight 和车载 Steam | [Vizualyse/idrive-apps](https://github.com/Vizualyse/idrive-apps) | [中文源码](https://github.com/JackieZ123430/vizualyse-idrive-apps-cn) · [中文包](https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/tag/vizualyse-zh-cn.1) |
 | MGU Store | 官方发行版，已收录中文译文并跟随车机语言 | [robertnisipeanu/mgu-store](https://github.com/robertnisipeanu/mgu-store) | [汉化 #57](https://github.com/robertnisipeanu/mgu-store/pull/57) · [收录 #63](https://github.com/robertnisipeanu/mgu-store/pull/63) |
 
 目录中的 **微信 ppppphhjjj** 是联系条目。详情页仅显示联系方式，Store 会拒绝安装请求。
@@ -25,7 +26,7 @@ https://gitee.com/xiaobai-151/mgu-cn-xiaobai/raw/main/catalog.json
 
 发布后应先确认未登录时也能读取原始 JSON 和包文件，再到车机添加。部分组件保留 GitHub 上游下载地址，其中包含超出 Gitee 普通仓库单文件体积的 Chromium 引擎。车机安装这些项目或依赖时需能访问相应地址。
 
-目录中 35 个汉化安装包面向 ID7。安装包内保留原项目的应用 ID，并使用 MGU Store 支持的三段式版本号。同一 ID 的官方源和汉化源并存时，Store 可能优先选择较新版本或该应用原来的安装来源。添加源后可在来源详情中确认对应条目。
+目录中的汉化安装包面向 ID7。安装包内保留原项目的应用 ID，并使用 MGU Store 支持的三段式版本号。同一 ID 的官方源和汉化源并存时，Store 可能优先选择较新版本或该应用原来的安装来源。添加源后可在来源详情中确认对应条目。
 
 `provenance.json` 记录汉化构建版本和对应 GitHub 原项目或 PR。按 MGU Store 的发行格式打包，安装时由车机生成所需的 BMW OAP SDK。各应用及组件沿用原作者的许可。
 
