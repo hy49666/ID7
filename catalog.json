@@ -2101,6 +2101,26 @@
         "ID7"
       ],
       "optional": true
+    },
+    {
+      "id": "jackie_qishui_music",
+      "kind": "app",
+      "title": "汽水音乐 Beta",
+      "description": "小白科技杂物社 · 免费应用请勿付费。BMW ID7 测试版，需自行运行电脑端 API 并连接车机，支持扫码授权、推荐、歌单、搜索和通过完整性检查的歌曲。后端和接入说明见源仓库 README。",
+      "author": "小白科技杂物社",
+      "version": "0.1.3",
+      "artifact": {
+        "name": "jackie_qishui_music@0.1.3.tgz",
+        "url": "packages/jackie_qishui_music@0.1.3.tgz",
+        "size": 1349865,
+        "sha256": "9826f2fee0f57b49af697f37b4a680845caf5d897c83852028e4a03e97eb0043"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "qishui_beta.png",
+      "iconSha256": "bd51203fdfbd30a6d537f54b1fd844f27025985f7f29685250c0589efec42a0f"
     }
   ]
 }

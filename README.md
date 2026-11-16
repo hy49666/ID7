@@ -37,3 +37,9 @@ https://gitee.com/xiaobai-151/mgu-cn-xiaobai/raw/main/catalog.json
 - 同步上游小组件内存画面缓存和实时数据温度单位设置，沿用现有汉化署名。
 - 配套 GPU renderer 更新至 2.1.18，Controller gate 更新至 1.1.0。
 - 已完成中文构建、小组件测试、实时数据测试和安装包校验，尚未车机实测。
+
+## 汽水音乐 Beta 0.1.3
+
+面向 BMW ID7。可从本源的 MGU Store 目录安装。请同时下载[电脑端 API 与接入说明](packages/qishui-beta-backend@0.1.3.zip)，自建本地后端后再从车机扫码登录。播放取决于上游提供的完整音频。
+
+PowerBy 小白科技杂物社 · 免费应用请勿付费。
