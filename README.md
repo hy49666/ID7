@@ -12,6 +12,7 @@
 | BMW 天气 | 简体中文天气界面、设置和小组件 | [flash8523/bmw-weather-mgu](https://github.com/flash8523/bmw-weather-mgu) | [#1](https://github.com/flash8523/bmw-weather-mgu/pull/1) |
 | MGU Browser | 简体中文界面与字体改动，应用按车机语言选择界面 | [pllanaio/mgu-browser](https://github.com/pllanaio/mgu-browser) | [#12](https://github.com/pllanaio/mgu-browser/pull/12) |
 | Vizualyse iDrive Apps | 仪表投射、Chromium 浏览器、仪表主题、Moonlight 和车载 Steam | [Vizualyse/idrive-apps](https://github.com/Vizualyse/idrive-apps) | [中文源码](https://github.com/JackieZ123430/vizualyse-idrive-apps-cn) · [中文包](https://github.com/JackieZ123430/vizualyse-idrive-apps-cn/releases/tag/vizualyse-zh-cn.1) |
+| mgu-apps | 精准计时、ECU 实时数据、DPF 监测（ID7） | [原版](https://github.com/giuseppesalatino-boop/mgu-apps) | [中文 README](https://github.com/JackieZ123430/mgu-apps/blob/fa79799e6a55113239ca9bdc3f88cc450cd17de7/README.zh-CN.md) · [汉化 PR](https://github.com/giuseppesalatino-boop/mgu-apps/pull/1) |
 | MGU Store | 官方发行版，已收录中文译文并跟随车机语言 | [robertnisipeanu/mgu-store](https://github.com/robertnisipeanu/mgu-store) | [汉化 #57](https://github.com/robertnisipeanu/mgu-store/pull/57) · [收录 #63](https://github.com/robertnisipeanu/mgu-store/pull/63) |
 
 目录中的 **微信 ppppphhjjj** 是联系条目。详情页仅显示联系方式，Store 会拒绝安装请求。

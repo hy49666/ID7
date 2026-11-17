@@ -2393,6 +2393,81 @@
       "icon": "ram_mic_calibration.png",
       "iconSha256": "75246d4f553e331e644c962ad414f1501951d41952e6c004e919f962f85955db",
       "author": "小白151 · 小白科技杂物社"
+    },
+    {
+      "id": "true_time_cn",
+      "kind": "app",
+      "title": "精准计时",
+      "description": "通过 DSC 加速度信号修正坡度，记录加速和制动测试。",
+      "version": "0.3.1",
+      "artifact": {
+        "name": "true_time_cn@0.3.1.tgz",
+        "url": "packages/true_time_cn@0.3.1.tgz",
+        "size": 920831,
+        "sha256": "1c4f112628f60f57a139b3d5fac7bf8a53d62e600b38af2c69d4be51a2d00624"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "mgu-deploy": "0.8.19"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "true_time_cn.png",
+      "iconSha256": "6b59b9acd542e7fe1a3c892ac9178a2566c82379b2498bc7f647648fb753f06b",
+      "author": "giuseppesalatino-boop · 汉化 小白151"
+    },
+    {
+      "id": "boostline_cn",
+      "kind": "app",
+      "title": "ECU 实时数据",
+      "description": "只读查看发动机实时数据，支持 CSV 记录、道路测功与加速计时。",
+      "version": "1.0.1",
+      "artifact": {
+        "name": "boostline_cn@1.0.1.tgz",
+        "url": "packages/boostline_cn@1.0.1.tgz",
+        "size": 1014042,
+        "sha256": "0ac28730baeee97e522310d0dbb2149ebd22afca3e6338c9fac1d4bcd5781970"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "mgu-deploy": "0.8.19"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "boostline_cn.png",
+      "iconSha256": "a28363ef5fd88739200f6d7b40e9f5da36421fa0f4db1b279c420bc2f5e8d01d",
+      "author": "giuseppesalatino-boop · 汉化 小白151"
+    },
+    {
+      "id": "dpf_id7_cn",
+      "kind": "app",
+      "title": "DPF 监测",
+      "description": "只读查看柴油颗粒捕集器的积炭、灰分、排温、压差和再生记录。",
+      "version": "0.1.1",
+      "artifact": {
+        "name": "dpf_id7_cn@0.1.1.tgz",
+        "url": "packages/dpf_id7_cn@0.1.1.tgz",
+        "size": 905949,
+        "sha256": "4e84cf0ee8785f86523b4bc52352d36e7e4412876795d547d1ca70013bb48ae3"
+      },
+      "requires": {
+        "idrive7-renderd": "2.1.7",
+        "mgu-inputgate": "1.0.0",
+        "mgu-deploy": "0.8.19"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "dpf_id7_cn.png",
+      "iconSha256": "1b04ede8508990d493ee764333350bd7268aa304af3cbd25faf58a3cc61a0bce",
+      "author": "giuseppesalatino-boop · 汉化 小白151"
     }
   ]
 }

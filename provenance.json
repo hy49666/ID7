@@ -367,5 +367,29 @@
     "upstream": "https://github.com/cauliflowermossgrape/idrive7-apps",
     "baseCommit": "c4eaa0fd5b97ab2b918a80c56258068f35a90a34",
     "author": "小白151 (GitHub: JackieZ123430)"
+  },
+  {
+    "id": "true_time_cn",
+    "build": "0.3.1-zh.cn.1",
+    "version": "0.3.1",
+    "upstream": "https://github.com/giuseppesalatino-boop/mgu-apps",
+    "pullRequest": "https://github.com/giuseppesalatino-boop/mgu-apps/pull/1",
+    "sourceCommit": "fa79799e6a55113239ca9bdc3f88cc450cd17de7"
+  },
+  {
+    "id": "boostline_cn",
+    "build": "1.0.1-zh.cn.1",
+    "version": "1.0.1",
+    "upstream": "https://github.com/giuseppesalatino-boop/mgu-apps",
+    "pullRequest": "https://github.com/giuseppesalatino-boop/mgu-apps/pull/1",
+    "sourceCommit": "fa79799e6a55113239ca9bdc3f88cc450cd17de7"
+  },
+  {
+    "id": "dpf_id7_cn",
+    "build": "0.1.1-zh.cn.1",
+    "version": "0.1.1",
+    "upstream": "https://github.com/giuseppesalatino-boop/mgu-apps",
+    "pullRequest": "https://github.com/giuseppesalatino-boop/mgu-apps/pull/1",
+    "sourceCommit": "fa79799e6a55113239ca9bdc3f88cc450cd17de7"
   }
 ]
