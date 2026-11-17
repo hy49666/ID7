@@ -359,5 +359,13 @@
       "sha256": "cbc2e0db8374186611cc45f81c970d15d770cda6704268836422b846146aba56",
       "url": "https://github.com/Vizualyse/idrive-apps/releases/download/vizualyse-steam%400.3.0/vizualyse-steam%400.3.0.tgz"
     }
+  },
+  {
+    "id": "ram_mic_calibration",
+    "build": "0.1.1",
+    "version": "0.1.1",
+    "upstream": "https://github.com/cauliflowermossgrape/idrive7-apps",
+    "baseCommit": "c4eaa0fd5b97ab2b918a80c56258068f35a90a34",
+    "author": "小白151 (GitHub: JackieZ123430)"
   }
 ]
